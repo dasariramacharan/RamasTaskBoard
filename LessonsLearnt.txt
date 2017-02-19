@@ -1,0 +1,8 @@
+﻿1.Changing IDE doesn't fix code issues :)
+2.During early stages,  
+   Dont make too many changes to project 
+  and then try to find the cause of broken project.
+  It's not recommended approach.
+
+ 3.Fixing issues teaches you how to build stuff. 
+   

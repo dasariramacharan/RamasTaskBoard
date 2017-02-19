@@ -1,0 +1,13 @@
+﻿1)Choose files to stage from vs to git
+2) Use bootstrap with angular 2 project using packages
+  http://stackoverflow.com/questions/36292438/how-to-use-bootstrap-css-library-in-angular-2-project
+3)use backend as WEb API 
+4)use Azure web api
+5)use auth with back end.
+
+Features to try
+1)cherry pick files to stage from vs2015 to git
+
+Defects to fix
+1)direct urls doesn't work
+2)

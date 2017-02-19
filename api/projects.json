@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "id": 100,
+      "name": "Family",
+      "side": "light"
+    },
+    {
+      "id": 200,
+      "name": "Career",
+      "side": "dark"
+    },
+    {
+      "id": 300,
+      "name": "Health",
+      "side": "dark"
+    },
+    {
+      "id": 400,
+      "name": "Fun",
+      "side": "light"
+    } 
+  ]
+}

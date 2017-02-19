@@ -1,0 +1,27 @@
+﻿
+<div>
+  Header
+</div>
+<div>
+  Left side navigation
+  <nav>
+    <ul>
+      <li><a [routerLink]="['/projects']" href="">Projects</a></li>
+      <li><a [routerLink]="['/tasks']" href="">Tasks</a></li>
+      <li><a [routerLink]="['/milestones']" href="">Milestones</a></li>
+      <li><a [routerLink]="['/login']" href="">Login</a></li>
+    </ul>
+  </nav>
+</div>
+<div> Top navigation</div>
+<main>
+  <section>
+    content
+    <!--<my-project-board >Loading Project Board...</my-project-board>
+  <my-task-board [project]="currentProject"> Loading Task Board...</my-task-board>-->
+    <router-outlet></router-outlet>
+  </section>  
+</main>
+<div>
+  footer
+</div>

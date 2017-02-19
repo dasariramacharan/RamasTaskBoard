@@ -1,0 +1,15 @@
+<ul class="list">
+  <li *ngFor="let project of projects" (click)="select(project)">
+     <div  [class.selected]="project === selectedProject">
+       {{project.id}}. {{project.name}}
+      </div>
+  </li>
+</ul>
+
+<div class="form-control" *ngIf="selectedProject">
+  <h3>Selected Project : </h3>
+   <my-project [project]="selectedProject"></my-project>
+   <button (click)="startProject()">Start Project </button>
+</div>
+ 
+ 

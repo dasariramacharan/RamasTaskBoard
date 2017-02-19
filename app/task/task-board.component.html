@@ -1,0 +1,14 @@
+
+<div *ngIf="project">
+  <h1>{{project}} Task Board</h1>
+  <my-task-list (taskStarted)="onTaskStarted($event)">Loading My tasks...</my-task-list>
+  <br />
+  <div class="row">
+    My Current Task :
+    <my-task *ngIf="currentTask" [task]="currentTask">Loading current working task..</my-task>
+    <span *ngIf="!currentTask" class="error"> No Task chosen. What are you doing?</span>
+  </div>
+</div>
+<div *ngIf="!project">
+    No project selected
+</div>

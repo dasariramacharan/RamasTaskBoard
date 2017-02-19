@@ -1,0 +1,8 @@
+<h1>{{userName}}'s Project Board</h1>
+<my-project-list (projectStarted) ="onProjectStarted($event)">Loading My projects...</my-project-list>
+<br/>
+<div class="row">
+   My Current Project :
+  <my-project *ngIf="currentProject" [project]="currentProject">Loading current working project..</my-project>
+  <span  *ngIf="!currentProject" class="error"> No Project chosen. What are you doing?</span>
+</div>

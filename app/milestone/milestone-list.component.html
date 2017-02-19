@@ -1,0 +1,12 @@
+﻿<div class="error" *ngIf="errorMessage">{{errorMessage}}</div>
+
+<ul>
+  <li *ngFor="let milestone of milestones | async">
+    <a href="" [routerLink]="['/milestones',milestone.id]">
+       {{milestone.name}}
+      </a>
+  </li>
+</ul>
+Click on item to navigate.
+TODO:change it to dropdown 
+and then navigate on selection change

@@ -1,0 +1,26 @@
+<article>
+  <div>
+    <h4 *ngIf="task">{{task?.name}} Task</h4>
+    <h4 *ngIf="!task">New Task</h4>
+    <div>
+      <label for="nameText">Name</label>
+      <input type="text" id="nameText" [(ngModel)]="task.name" />
+      
+      <label for="durationText">Duration</label>
+      <input type="text" id="durationText" [(ngModel)]="task.duration" />
+    </div>
+  </div>
+</article>
+
+<div class="row">
+  Save this content?
+   {{task?.id}} -  {{task?.name}}  - {{task?.duration}} minutes
+  <button (click)="onAddTask()" *ngIf="!id">Add</button>
+  <button (click)="onUpdateTask()" *ngIf="id">Update</button>
+      <!--The Angular safe navigation operator (?.) is a more fluent and convenient way to 
+      guard against nulls in property paths.
+      The expression bails out when it hits the first null value. The display is blank, 
+      but the app keeps rolling without errors.-->
+  -----{{id}}--
+</div>
+<button [routerLink]="['/tasks']">Cancel</button>

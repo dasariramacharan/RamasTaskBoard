@@ -1,0 +1,31 @@
+1) NVM for windows - manage multiple versions of node
+https://github.com/coreybutler/nvm-windows/releases/tag/1.1.1
+
+2)toastr at https://github.com/CodeSeven/toastr
+
+3)
+
+
+
+
+
+-------
+1) try out
+  https://jcoop.io/angular-2-practice-exercises/
+  https://github.com/jmcooper/angular2-fundamentals-files
+
+2)http://angular2-first-look.azurewebsites.net/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
